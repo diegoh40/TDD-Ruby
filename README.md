@@ -1,1 +1,88 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # TDD-Ruby
+
+> In this project we implemented a class with some methods, but you did it by doing test-driven development (TDD). Remember that the idea is to write tests first and then the code. This was verified in your commits history, so it is important to use the proper sequence.
+
+## Built with
+
+- **Ruby** Popular programming language that’s used for lots of things, from web app development to data analysis.
+- **Gitflow** Correct use of Branches for deployment and features development
+- **Linter checks (rubocop)** Local and Pull Request check for errors, bugs and stylistic errors in code
+
+## Getting started
+
+### Clone the repository
+
+```shell
+git clone https://github.com/diegoh40/TDD-Ruby.git
+cd TDD-Ruby
+```
+
+### Check your Ruby version
+
+```shell
+ruby --version && irb
+```
+
+The ouput should start with something like `ruby 3.1.2`
+
+If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
+
+```shell
+rbenv install 3.1.2
+```
+
+### Testing
+
+To test and utilize the code, use the terminal and run ruby by inputting `irb` in the command line, or by using an extension in Visual Studio Code like *Code runner*
+
+The user then can modify and play with the files as needed
+
+<!-- ### Install dependencies
+
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
+
+```shell
+bundle && yarn
+``` -->
+
+## Authors
+
+👤 **Lucas Mullen**
+
+- GitHub: [@mullenlucas](https://github.com/mullenlucas)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-mullen-447312119/)
+
+👤 **Diego Hernández**
+
+- GitHub: [@diehoh40](https://github.com/diegoh40)
+- Twitter: [@Diegoart80](https://twitter.com/Diegoart80)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/diegoarturoh/)
+
+👤 **Daniel**
+
+- GitHub: [@dgonzalesi](https://github.com/dgonzalesi/)
+- Twitter: [@dgonzalesi](https://twitter.com/dgonzalesi/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-g-sierra-60472719/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- To all the collaborators for the Readme Template
+- The Microverse Team
+
+## 📝 License
+
+This project is [MIT](./LICENSE.md) licensed.
