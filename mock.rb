@@ -13,5 +13,13 @@ describe Factorial do
       expect(reverser.reverse('Hello')).to eq('olleH')
   end
 
+  describe FizzBuzz do
+    it "Check if the method reverse return a reverse string" do
+      fizzbuz = Solver.new
+      expect(fizzbuz.fizz(15)).to eq('FizzBuzz')
+      expect(fizzbuz.fizz(3)).to eq('Fizz')
+      expect(fizzbuz.fizz(5)).to eq('Buzz')
+      expect(fizzbuz.fizz(7)).to eq('7')
+  end
 
   end
