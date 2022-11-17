@@ -1,9 +1,12 @@
 require_relative './factorial_functions'
 
 describe Solver do
-  it 'finds the factorial of 5' do
+  it 'Check the factorial method and their limit cases' do
     calculator = Solver.new
     expect(calculator.factorial(5)).to eq(120)
+    expect(calculator.factorial(-5)).to eq('Please use a positive number')
+    expect(calculator.factorial(0)).to eq(1)
+    expect(calculator.factorial(1)).to eq(1)
   end
 end
 
